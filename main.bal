@@ -1,8 +1,8 @@
 import ballerina/http;
 
 type Greeting record {|
-    string to;
-    string content;
+    string to = "TOM";
+    string content = "Good Morning!";
 |};
 
 configurable int port = 9090;
